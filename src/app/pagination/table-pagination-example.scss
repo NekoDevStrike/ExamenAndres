@@ -1,0 +1,78 @@
+.mdc-data-table__table {
+    min-width: 100%;
+    border-radius: 1vh;
+    white-space: nowrap;
+    border-spacing: 0;
+    table-layout: fixed
+    
+}
+
+.mat-mdc-table {
+    table-layout: auto;
+    white-space: normal;
+    background-color: #18899b00;
+    color: white;
+}
+
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+
+  
+}
+
+.mdc-data-table__header-cell {
+    box-sizing: border-box;
+    color: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    outline: none;
+    text-align: center
+}
+
+th{
+    border-bottom: solid 0.4vh white;
+    
+}
+
+td{
+    max-height: 2vh;
+    color: white;
+    background-color: #1e3235;
+    text-align: center
+}
+
+.mat-mdc-paginator {
+    border-bottom-left-radius: 1.3vh;
+    border-bottom-right-radius: 1.3vh;
+    display: block;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    background-color: #36454c;
+    font-family: var(--mat-paginator-container-text-font);
+    line-height: var(--mat-paginator-container-text-line-height);
+    font-size: var(--mat-paginator-container-text-size);
+    font-weight: var(--mat-paginator-container-text-weight);
+    letter-spacing: var(--mat-paginator-container-text-tracking);
+    --mat-form-field-container-height: var(--mat-paginator-form-field-container-height);
+    --mat-form-field-container-vertical-padding: var(--mat-paginator-form-field-container-vertical-padding)
+}
+
+.mat-mdc-paginator-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 8px;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: var(--mat-paginator-container-size);
+}
+
