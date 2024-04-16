@@ -1,0 +1,27 @@
+table {
+    width: 99%;
+  }
+  
+ 
+  
+  td, th {
+    width: 25%;
+  }
+  
+
+  .inputbuscar{
+    height: 4vh;
+    max-height: 4vh;
+    width: 35vh;
+    max-width: 35vh;
+    margin-right: 7vh;
+    position: absolute;
+    left: 33.5vh;
+    border: solid 0px;
+    border-radius: 1vh;
+    background-color: #3EC2B8B1;
+    outline: none;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: white;
+  }
