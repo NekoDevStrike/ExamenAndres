@@ -1,0 +1,140 @@
+<!-- Button trigger modal -->
+<button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" class="add">
+  +
+</button>
+
+<style>
+    .modal{
+        backdrop-filter: blur(5px);
+
+    }
+
+    .modal-heade{
+        background-color: #09826B;
+        align-items: center;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 1.3vh;
+        border-top-right-radius: 1.3vh;
+        height: 9vh;
+    }
+
+    .modal-tit{
+    color: rgb(255, 255, 255);
+    font-size: 4vh;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.2vh;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+    .btn-clo{
+        position: absolute;
+        right: 3vh;
+        background-color: rgba(0, 0, 0, 0.438);
+        border-radius: 100%;
+        border: solid 0px;
+        color: white;
+        height: 4vh;
+        width: 4vh;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .modal-bod{
+        background-color: #12171C;
+        height: 35vh;
+        padding-top: 4vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        color: white;
+    }
+
+    .modal-content{
+        border: 100%;
+        background-color: rgba(255, 255, 255, 0);
+
+    }
+
+    .modal-foote{
+        background-color: #12171C;
+        border-bottom-left-radius: 1.4vh;
+        border-bottom-right-radius: 1.4vh;
+        padding: 2vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .botuno{
+        background-color: rgb(0, 0, 0);
+        border: solid 0;
+        border-radius: 1vh;
+        width: 15vh;
+        height: 4vh;
+        color: white;
+        position: absolute;
+        left: 2vh;
+        bottom: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .botos{
+        background-color: #02FFA4;
+        border: solid 0;
+        border-radius: 1vh;
+        width: 15vh;
+        height: 4vh;
+        position: absolute;
+        right: 2vh;
+        bottom: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contact{
+        margin-top: 4vh;
+    }
+
+    .formu{
+        background-color: #2C7E78B1;
+        border: solid 0;
+        border-bottom: #02FFA4 solid 0.5vh;
+        border-radius: 1vh;
+        width: 100%;
+        color: white;
+        padding-left: 1vh;
+        padding-right: 1vh;
+        outline: none;
+    }
+
+</style>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-heade">
+          <p class="modal-tit">Nuevo Contacto</p>
+          <button  class="btn-clo" data-bs-dismiss="modal" aria-label="Close">X</button>
+        </div>
+        <div class="modal-bod">
+          <div>
+            Nombre:
+            <br>
+            <input class="formu" type="text">
+
+          </div>
+          <div class="contact">
+            Numero de contacto:
+            <br>
+            <input class="formu" type="text">
+          </div>
+        </div>
+        <div class="modal-foote">
+          <button class="botuno" data-bs-dismiss="modal">Cancelar</button>
+          <button class="botos" >Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>

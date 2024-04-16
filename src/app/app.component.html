@@ -18,7 +18,7 @@
   .botonheader{
     margin-left: 2vh;
     border-radius: 1.3vh;
-    width: 8.8vh;
+    width: 10.8vh;
     padding: 1vh;
     background-color: rgba(0, 0, 0, 0.336);
     color: rgb(255, 255, 255);
@@ -85,25 +85,10 @@
     border: solid 0px;
     border-radius: 1vh;
     background-color: #3EC2B8B1;
-  }
-
-  .add{
-    border-radius: 100%;
-    border: solid 0px;
-    height: 5vh;
-    width: 5vh;
-    position: absolute;
-    right: 33.5vh;
-    max-width: 5vh;
-    max-height: 5vh;
-    color: #000000;
-    font-size: 4vh;
-    font-family: 'Inter', sans-serif;
-    background-color: #4FD5FF;
-  }
-
-  .add:hover{
-    background-color: #3EC2B8B1;
+    outline: none;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    color: white;
   }
 
 
@@ -112,8 +97,9 @@
     margin-left: 3.5vh;
     margin-right: 3.5vh;
     height: 50vh;
-    border-radius: 1.3vh;
+    border-radius: 1.7vh;
     position: relative;
+    border: solid 0.5vh #215b54;
   }
 
   .tablaheader{
@@ -174,7 +160,7 @@
       </div>
 
       <div>
-        <button class="add">+</button>
+        <app-popup></app-popup>
       </div>
     </div>
 
@@ -196,9 +182,12 @@
       </div>
 
     </div>
+
+    
     
   </div>
 </main>
+
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
