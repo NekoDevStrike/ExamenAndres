@@ -34,8 +34,8 @@
   .content{
     background-color: #1F262B;
     margin-top: 6vh;
-    margin-left: 20vh;
-    margin-right: 20vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
     height: 80vh;
     border-radius: 1.4vh;
   }
@@ -51,6 +51,102 @@
     letter-spacing: 0.1vh;
     text-align: center;
   }
+
+  .precontactos{
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.1vh;
+    margin-top: 3.5vh;
+    margin-left: 3.5vh;
+    margin-right: 3.5vh;
+    border-top: 0.3vh solid #3F5E65;
+    padding-top: 2vh;
+  }
+
+  .modif{
+    margin-left: 3.5vh;
+    margin-right: 3.5vh;
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .inputbuscar{
+    height: 4vh;
+    max-height: 4vh;
+    width: 35vh;
+    max-width: 35vh;
+    margin-right: 7vh;
+    position: absolute;
+    left: 33.5vh;
+    border: solid 0px;
+    border-radius: 1vh;
+    background-color: #3EC2B8B1;
+  }
+
+  .add{
+    border-radius: 100%;
+    border: solid 0px;
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    right: 33.5vh;
+    max-width: 5vh;
+    max-height: 5vh;
+    color: #000000;
+    font-size: 4vh;
+    font-family: 'Inter', sans-serif;
+    background-color: #4FD5FF;
+  }
+
+  .add:hover{
+    background-color: #3EC2B8B1;
+  }
+
+
+  .tablacontactos{
+    background-color: #151e1f;
+    margin-left: 3.5vh;
+    margin-right: 3.5vh;
+    height: 50vh;
+    border-radius: 1.3vh;
+    position: relative;
+  }
+
+  .tablaheader{
+    background-color: #09826B;
+    border-bottom: 0.4vh solid #ffffff;
+    border-top-left-radius: 1.3vh;
+    border-top-right-radius: 1.3vh;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.1vh;
+    height: 4vh;
+  }
+
+
+  td{
+    padding-left: 17vh;
+    padding-right: 17vh;
+    font-size: 2vh;
+  }
+
+  .tablafooter{
+    position: absolute;
+    bottom: 0;
+    background-color: #36454c;
+    width: 100%;
+    height: 6vh;
+    border-bottom-left-radius: 1.3vh;
+    border-bottom-right-radius: 1.3vh;
+  }
+
 
 </style>
 
@@ -68,8 +164,37 @@
       Contactos
     </div>
 
-    <div>
-      
+    <div class="precontactos">
+      Nombre:
+    </div>
+
+    <div class="modif">
+      <div>
+        <input class="inputbuscar" type="text" id="mi-input">
+      </div>
+
+      <div>
+        <button class="add">+</button>
+      </div>
+    </div>
+
+    <div class="tablacontactos">
+
+      <div class="tablaheader">
+       <table>
+        <tr>
+          <td>Nombres</td>
+          <td></td>
+          <td>Numero Contacto</td>
+        </tr>
+       </table>
+      </div>
+
+
+      <div class="tablafooter">
+        
+      </div>
+
     </div>
     
   </div>
