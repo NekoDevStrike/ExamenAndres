@@ -36,6 +36,7 @@
     margin-top: 6vh;
     margin-left: 30vh;
     margin-right: 30vh;
+    margin-bottom: 25vh;
     height: 80vh;
     border-radius: 1.4vh;
   }
@@ -93,28 +94,15 @@
 
 
   .tablacontactos{
-    background-color: #151e1f;
+    
     margin-left: 3.5vh;
     margin-right: 3.5vh;
     height: 50vh;
     border-radius: 1.7vh;
     position: relative;
-    border: solid 0.5vh #215b54;
+
   }
 
-  .tablaheader{
-    background-color: #09826B;
-    border-bottom: 0.4vh solid #ffffff;
-    border-top-left-radius: 1.3vh;
-    border-top-right-radius: 1.3vh;
-    display: flex;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-size: 2vh;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 0.1vh;
-    height: 4vh;
-  }
 
 
   td{
@@ -123,15 +111,13 @@
     font-size: 2vh;
   }
 
-  .tablafooter{
-    position: absolute;
-    bottom: 0;
-    background-color: #36454c;
-    width: 100%;
-    height: 6vh;
-    border-bottom-left-radius: 1.3vh;
-    border-bottom-right-radius: 1.3vh;
+  .tablast{
+    border: solid 0.8vh #215b54;
+    background-color: #151e1f;
+    border-radius: 1.7vh;
+    
   }
+
 
 
 </style>
@@ -165,22 +151,9 @@
     </div>
 
     <div class="tablacontactos">
-
-      <div class="tablaheader">
-       <table>
-        <tr>
-          <td>Nombres</td>
-          <td></td>
-          <td>Numero Contacto</td>
-        </tr>
-       </table>
+      <div class="tablast">
+        <table-pagination-example></table-pagination-example>
       </div>
-
-
-      <div class="tablafooter">
-        
-      </div>
-
     </div>
 
     
